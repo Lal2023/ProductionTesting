@@ -11,6 +11,7 @@ int main(){
 
     cout << "Calling the function from within the main" << endl;
 
-    myFunction("Hi");
+   const string str = "hi";
+    myFunction(str);
   
 }
